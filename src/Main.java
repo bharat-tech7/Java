@@ -85,22 +85,50 @@ public class Main {
 //            i++;
 //        }
 //        //factorial programme
-        System.out.print("Enter number :");
+//        System.out.print("Enter number :");
+//        int num= scn.nextInt();
+//int checkingnum =2;
+//while(num>1)
+//{
+//if(num%checkingnum ==0)
+//{
+//    System.out.print(checkingnum +" ");
+//    num=num/checkingnum;
+//}
+//else
+//{
+//    checkingnum+=1;
+//}
+//}
+//
+//        System.out.println("Enter Your Number");
+//        int n=scn.nextInt();
+//        int n1=0 ,n2=1;
+//        int i=1;
+//        while( i<=n)
+//        {
+//            System.out.print(n1+",");
+//            int n3=n1 + n2;
+//            n1=n2;
+//            n2=n3;
+//            i++;
+//
+//        }
+        System.out.println("Enter your Number");
         int num= scn.nextInt();
-int checkingnum =2;
-while(num>1)
-{
-if(num%checkingnum ==0)
-{
-    System.out.print(checkingnum +" ");
-    num=num/checkingnum;
-}
-else
-{
-    checkingnum+=1;
-}
-}
-
+        int i=2;
+        while(i<num)
+        {  int temp=num;
+            if(num%num==0 && num%1==0)
+            {
+                System.out.println("Prime Number");
+            }
+            else
+            {
+                System.out.println("Not Prime");
+            }
+            i++;
+        }
 
     }
 }

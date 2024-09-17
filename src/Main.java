@@ -114,21 +114,37 @@ public class Main {
 //            i++;
 //
 //        }
-        System.out.println("Enter your Number");
-        int num= scn.nextInt();
-        int i=2;
-        while(i<num)
-        {  int temp=num;
-            if(num%num==0 && num%1==0)
-            {
-                System.out.println("Prime Number");
-            }
-            else
-            {
-                System.out.println("Not Prime");
-            }
-            i++;
-        }
+//        Prime Number Programme
+//        System.out.println("Enter your Number");
+//        int num= scn.nextInt();
+//        int divnum =2;
+//        int count =0;
+//
+//        while (divnum<num){
+//            if(num%divnum ==0)
+//            {
+//                count++;
+//                break;
+//            }
+//            divnum++;
+//        }
+//        if (count>0)
+//        {
+//            System.out.println("not prime" + " " +count);
+//        }
+//        else
+//        {
+//            System.out.println("Prime ");
+//        }
+//   <---------     Power Program ------->
+        System.out.println("Enter your first number");
+        int n1= scn.nextInt();
+        System.out.println("Enter your second number");
+        int n2= scn.nextInt();
+      for(int i=1;i<=1;n1=n1*n2)
+      {    n2=n1;
+          System.out.println(n1*n2);
+      }
 
     }
 }

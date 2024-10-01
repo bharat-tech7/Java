@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
@@ -137,14 +138,124 @@ public class Main {
 //            System.out.println("Prime ");
 //        }
 //   <---------     Power Program ------->
-        System.out.println("Enter your first number");
-        int n1= scn.nextInt();
-        System.out.println("Enter your second number");
-        int n2= scn.nextInt();
-      for(int i=1;i<=1;n1=n1*n2)
-      {    n2=n1;
-          System.out.println(n1*n2);
-      }
+//        System.out.println("Enter your first number");
+//        int n1= scn.nextInt();
+//        System.out.println("Enter your second number");
+//        int n2= scn.nextInt();
+//        int ans=1;
+//      while (n2>0)
+//      {   ans=ans * n1;
+//n2--;
+//      }
+//        System.out.println(ans);
+//
+//        System.out.println("Enter number");
+//        int num = scn.nextInt();
+//       int  ans=1;
+//        while(ans*ans<=num)
+//        {
+//            ans++;
+//        }
+//        ans=ans-1;
+//        System.out.println(ans);
+//
+//        System.out.println("Enter Four Digit Number :");
+//        int number =scn.nextInt();
+//        System.out.println("Enter the value of k :");
+//        int k= scn.nextInt();
+//        while(k >0)
+//        {
+//            number=((number%10) * 1000) + number/10;
+//
+//
+//            k--;
+//
+//        }
+//        System.out.println("The  Final Number : "+number);
+//        System.out.print("Enter Number :");
+//        int n=scn.nextInt();
+//       for(int i=1; i<=n; i++)
+//        {
+//            for(int j=1; j<=n; j++)
+//            {
+//                if(i == 1 ||j==1||i+j==6) {
+//
+//                    System.out.print(j+" ");
+//                }
+//                else {
+//                    System.out.print("  ");
+//                }
+//
+//            }
+//            System.out.println(" ");
+//        }
+        //Square Hollow Program
+//        for(int i=1; i<=n; i++)
+//        {
+//            for(int j=1; j<=n; j++)
+//            {
+//                if(i == 1 ||j==1||i==5||j==5) {
+//
+//                    System.out.print("*"+" ");
+//                }
+//                else {
+//                    System.out.print("  ");
+//                }
+//
+//            }
+//            System.out.println(" ");
+//        }
+
+//Number Increasing pramid
+//        for(int i=1; i<=n; i++)
+//        {
+//            for(int j=1; j<=i; j++)
+//            {
+//
+//                    System.out.print(j+" ");
+//
+//            }
+//            System.out.println(" ");
+//        }
+        //Number Increasing reverse  pramid
+//        for(int i=n; i>=1; i--)
+//        {
+//            for(int j=1; j<=i; j++)
+//            {
+//
+//                System.out.print(j+" ");
+//
+//            }
+//            System.out.println(" ");
+//        }
+        //right half pramid
+//        for(int i=1; i<=n; i++)
+//        {
+//            for(int j=1; j<=i; j++)
+//            {
+//
+//                System.out.print( "*"+" ");
+//
+//            }
+//            System.out.println(" ");
+//        }
+        // Number Triangle
+//        for(int i=1;i<=n;i++)
+//        {
+//            for(int s=5;s>=i;s--)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int j=1;j<=i;j++)
+//            {
+//                System.out.print(i+" ");
+//            }
+//            System.out.println("  ");
+//        }
+
+
+
+
 
     }
 }

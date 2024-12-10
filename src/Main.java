@@ -1,13 +1,40 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 
+
+
+
+
 public class Main {
-    public static void main(String[] args) {
 
 
-       // Scanner scn=new Scanner(System.in);
-        //Taking marks from user
+//    static void sum() {
+//
+//    }
+//
+//    {
+//        int a=10;
+//        int b=20;
+//        System.out.println(a+b);
+//    }
+//    static void x()
+//    {
+//        System.out.println("Bharat");
+//        System.out.println("Daksh");
+//        y();
+//        System.out.println("Kiran");
+//        System.out.println("Subham");
+//    }
+//    static void y()
+//    {
+//        System.out.println("regex is best");
+//    }
+//
+//    public static void main(String[] args) {
+//
+//       Scanner scn=new Scanner(System.in);
+    //Taking marks from user
       /*  System.out.println("Enter Your marks of math :");
        int math=scn.nextInt();
         System.out.println("Enter Your marks of science:");
@@ -45,7 +72,7 @@ public class Main {
             System.out.println("invalid value");
         }
 */
-        //number print 1--100
+    //number print 1--100
 //        int num=1;
 //        while(num<=100)
 //        {
@@ -59,7 +86,7 @@ public class Main {
 //            System.out.println(i);
 //            i--;
 //        }
-        //All even number between 1--100
+    //All even number between 1--100
 //        int number=1;
 //        while(number<=100)
 //        {
@@ -77,7 +104,7 @@ public class Main {
 //            }
 //            number++;
 //        }
-        Scanner scn=new Scanner(System.in);
+//        Scanner scn = new Scanner(System.in);
 //        System.out.print("Enter Your Number ");
 //        int number=scn.nextInt();
 //        int i=1;
@@ -189,7 +216,7 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-        //Square Hollow Program
+    //Square Hollow Program
 //        for(int i=1; i<=n; i++)
 //        {
 //            for(int j=1; j<=n; j++)
@@ -217,8 +244,8 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-        //Number Increasing reverse  pramid
-//        for(int i=n; i>=1; i--)
+//        //Number Increasing reverse  pramid
+//        for(int i=5; i>=1; i--)
 //        {
 //            for(int j=1; j<=i; j++)
 //            {
@@ -228,7 +255,7 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-        //right half pramid
+    //right half pramid
 //        for(int i=1; i<=n; i++)
 //        {
 //            for(int j=1; j<=i; j++)
@@ -239,7 +266,7 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-        // Number Triangle
+    // Number Triangle
 //        for(int i=1;i<=n;i++)
 //        {
 //            for(int s=5;s>=i;s--)
@@ -252,10 +279,111 @@ public class Main {
 //            }
 //            System.out.println("  ");
 //        }
+    //Lift half pyramid
+//        for(int i=1;i<=5;i++)
+//        {
+//            for(int s=5;s>=i;s--)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int j=1;j<=i;j++)
+//            {
+//                System.out.print("*"+" ");
+//            }
+//            System.out.println("");
+//        }
+    //Reverse Right Half Pyramid
+//        for(int i=5;i>=1;i--)
+//        {
+//            for(int s=5;s>=i;s--)
+//            {
+//                System.out.print("");
+//            }
+//            for(int j=1;j<=i;j++)
+//            {
+//                System.out.print("*"+" ");
+//            }
+//            System.out.println("");
+//        }
+    //Triangle star pattern
+//        for(int i=1;i<=5;i++)
+//        {
+//            for(int s=5;s>=i;s--)
+//            {
+//                System.out.print(" ");
+//            }
+//            for(int j=1;j<=i;j++)
+//
+//            {
+//                System.out.print("*"+" ");
+//            }
+//            System.out.println("");
+//        }
+    //K Pattern
+//        for(int i=5;i>=1;i--)
+//        {
+//            for(int s=5;s>=i;s--)
+//            {
+//                System.out.print("");
+//            }
+//            for(int j=1;j<=i;j++)
+//            {
+//                System.out.print("*"+" ");
+//            }
+//            System.out.println("");
+//        }
+//        for(int i=2; i<=5; i++)
+//        {
+//            for(int j=1; j<=i; j++)
+//            {
+//
+//                System.out.print( "*"+" ");
+//
+//            }
+//            System.out.println(" ");
+//        }
+    // Number Increasing Reverse Pyramid
+//        for(int i=5;i>=1;i--)
+//        {
 
+    //            for(int j=1;j<=i;j++)
+//            {
+//                System.out.print(j+" ");
+//            }
+//            System.out.println("  ");
+//        }
+//        sum();
+//
+//        System.out.println("A");
+//        System.out.println("B");
+//        x();
+//        System.out.println("C");
+//        System.out.println("D");
+    public static void main(String[] args) {
+        System.out.println("Enter a Number ");
+        Scanner scn = new Scanner(System.in);
+        int Number = scn.nextInt();
+        int age[] = new int[Number];
+        System.out.println("Enter " + Number  + " values of the array");
+        for (int i = 0; i < Number; i++) {
+            age[i] = scn.nextInt();
+        }
+        System.out.println("The valueof entered array is :");
+        for (int i=0;i<Number;i++)
+        {
+            System.out.print(age[i]+" ");
 
+        }
 
+        }
 
 
     }
-}
+
+
+
+
+
+
+
+

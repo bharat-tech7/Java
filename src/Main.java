@@ -34,7 +34,7 @@ public class Main {
 //    public static void main(String[] args) {
 //
 //       Scanner scn=new Scanner(System.in);
-    //Taking marks from user
+        //Taking marks from user
       /*  System.out.println("Enter Your marks of math :");
        int math=scn.nextInt();
         System.out.println("Enter Your marks of science:");
@@ -72,7 +72,7 @@ public class Main {
             System.out.println("invalid value");
         }
 */
-    //number print 1--100
+        //number print 1--100
 //        int num=1;
 //        while(num<=100)
 //        {
@@ -86,7 +86,7 @@ public class Main {
 //            System.out.println(i);
 //            i--;
 //        }
-    //All even number between 1--100
+        //All even number between 1--100
 //        int number=1;
 //        while(number<=100)
 //        {
@@ -216,7 +216,7 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-    //Square Hollow Program
+        //Square Hollow Program
 //        for(int i=1; i<=n; i++)
 //        {
 //            for(int j=1; j<=n; j++)
@@ -233,7 +233,7 @@ public class Main {
 //            System.out.println(" ");
 //        }
 
-//Number Increasing pramid
+        //Number Increasing pramid
 //        for(int i=1; i<=n; i++)
 //        {
 //            for(int j=1; j<=i; j++)
@@ -255,7 +255,7 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-    //right half pramid
+        //right half pramid
 //        for(int i=1; i<=n; i++)
 //        {
 //            for(int j=1; j<=i; j++)
@@ -266,7 +266,7 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-    // Number Triangle
+        // Number Triangle
 //        for(int i=1;i<=n;i++)
 //        {
 //            for(int s=5;s>=i;s--)
@@ -279,7 +279,7 @@ public class Main {
 //            }
 //            System.out.println("  ");
 //        }
-    //Lift half pyramid
+        //Lift half pyramid
 //        for(int i=1;i<=5;i++)
 //        {
 //            for(int s=5;s>=i;s--)
@@ -292,7 +292,7 @@ public class Main {
 //            }
 //            System.out.println("");
 //        }
-    //Reverse Right Half Pyramid
+        //Reverse Right Half Pyramid
 //        for(int i=5;i>=1;i--)
 //        {
 //            for(int s=5;s>=i;s--)
@@ -305,7 +305,7 @@ public class Main {
 //            }
 //            System.out.println("");
 //        }
-    //Triangle star pattern
+        //Triangle star pattern
 //        for(int i=1;i<=5;i++)
 //        {
 //            for(int s=5;s>=i;s--)
@@ -319,7 +319,7 @@ public class Main {
 //            }
 //            System.out.println("");
 //        }
-    //K Pattern
+        //K Pattern
 //        for(int i=5;i>=1;i--)
 //        {
 //            for(int s=5;s>=i;s--)
@@ -342,11 +342,10 @@ public class Main {
 //            }
 //            System.out.println(" ");
 //        }
-    // Number Increasing Reverse Pyramid
+        // Number Increasing Reverse Pyramid
 //        for(int i=5;i>=1;i--)
 //        {
-
-    //            for(int j=1;j<=i;j++)
+//            for(int j=1;j<=i;j++)
 //            {
 //                System.out.print(j+" ");
 //            }
@@ -359,26 +358,125 @@ public class Main {
 //        x();
 //        System.out.println("C");
 //        System.out.println("D");
-    public static void main(String[] args) {
-        System.out.println("Enter a Number ");
-        Scanner scn = new Scanner(System.in);
-        int Number = scn.nextInt();
-        int age[] = new int[Number];
-        System.out.println("Enter " + Number  + " values of the array");
-        for (int i = 0; i < Number; i++) {
-            age[i] = scn.nextInt();
-        }
-        System.out.println("The valueof entered array is :");
-        for (int i=0;i<Number;i++)
-        {
-            System.out.print(age[i]+" ");
+        public static void main (String[] args){
+//        System.out.println("Enter a Number ");
+//        Scanner scn = new Scanner(System.in);
+//        int Number = scn.nextInt();
+//        int[] age = new int[Number];
+//        System.out.println("Enter " + Number + " values of the array");
+//        for (int i = 0; i < Number; i++) {
+//            age[i] = scn.nextInt();
+//        }
+//        System.out.println("The valueof entered array is :");
+//        for (int i = 0; i < Number; i++) {
+//            System.out.print(age[i] + " ");
+//        }
+//        //max age and min age or spam(difference)
+//        int maxAge = age[0];
+//        int minAge = age[0];
+//        for (int i = 1; i < age.length; i++) {
+//            if (maxAge < age[i]) {
+//                maxAge = age[i];
+//            }
+//            if (minAge > age[i]) {
+//                minAge = age[i];
+//            }
+//        }
+//            System.out.println("Max age in array is: " + maxAge);
+//        System.out.println("Thw minimum value in array is:"+minAge);
+//        int spam=maxAge-minAge;
+//        System.out.println("Spam is:"+spam);
 
-        }
 
-        }
+            //------Array swaping  ------>
 
+//        int[] arr = {10, 20, 30, 40, 50};
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//        System.out.println();
+//        swaparr(arr,2,3);
+//        for (int i = 0; i <arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//
+//    }
+//
+//   public static void swaparr(int[] arr, int a, int b) {
+//        arr[a]  = arr[a]+arr[b];
+//       arr[b]  = arr[a]-arr[b];
+//       arr[a]  = arr[a]-arr[b];
+//            System.out.println("Enter Target Value: ");
+//       Scanner scn = new Scanner(System.in);
+//            int[] arr = {20, 40, 70, 50, 80};
+//
+//
+//            for (int i = 0; i < arr.length; i++) {
+//                System.out.print(arr[i] + " ");
+//            }
+//            int t=scn.nextInt();
+//            System.out.println();
+//            int count = function(arr, t);
+//            if (count != 0) {
+//                System.out.println("The target is found at :" + count);
+//            } else {
+//                System.out.println("Wrong value");
+//            }
+//        }
+//    static int function ( int[] arr, int target) {
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] == target) {
+//                return i;
+//            }
+//        }
+//            return 0;
+//            ------------------------------------------------------------------------------------------------
+//           int [] arr={ 2,5,4,6,0,1};
+//            for( int i=0;i<arr.length;i++){
+//                for(int j=1;j<=arr[i];j++){
+//                    if(arr[i]!=0){
+//                    System.out.print("*");
+//                }
+//                else {
+//                        System.out.print("");
+//                    }
+//
+//}
+//                System.out.println("");
+//            }
+            //---------------------------------------------------------------------------
+//            for( int i=0;i<arr.length;i++){
+//                for(int j=5;j>=arr[i];j--){
+//                    if(arr[i]!=0){
+//                        System.out.print("*");
+//                    }
+//                    else {
+//                        System.out.print("");
+//                    }
+//
+//                }
+//                System.out.println("");
+//                for(int i=5;i< arr.length;i--)
+//                {
+//                    for(int j=1;j<=arr[i];j++) {
+//                        if (arr[i] != 0) {
+//
+//
+//                            System.out.print("*");
+//                        }
+//                        else {
+//                            System.out.print(" ");
+//                        }
+//                    }
+//                    System.out.println(" ");
+//                }
+            }
 
     }
+
+
+
+
 
 
 

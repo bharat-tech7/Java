@@ -3,16 +3,15 @@
 public class Main {
     static void moveZerosToEnd(int[] arr) {
         int n = arr.length;
-        int temp = 0;
-
-
+        int index = 0;
         for (int i = 0; i < n; i++) {
             if (arr[i] != 0) {
-                arr[temp++] = arr[i];
+                int temp=arr[i];
+                arr[i]=arr[index];
+                arr[index]=temp;
+                index++;
+
             }
-        }
-        while (temp < n) {
-            arr[temp++] = 0;
         }
     }
 
